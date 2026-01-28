@@ -1,0 +1,2889 @@
+[19-Jan-2026 16:30:53 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 16:30:53 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2020-01-19
+    [severity] => high
+    [estimated_cost] => 1000000
+    [description] => road damage
+    [coordinates] => commonwealth
+    [priority] => high
+    [notes] => priority
+    [engineer_id] => 17
+    [created_at] => 2026-01-19T15:30:53.295Z
+)
+
+[19-Jan-2026 16:30:53 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\phpA6ED.tmp
+                    [1] => C:\xampp\tmp\phpA6EE.tmp
+                    [2] => C:\xampp\tmp\phpA6EF.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 62525
+                    [1] => 13190
+                    [2] => 7108
+                )
+
+        )
+
+    [uploaded_photo_1] => Array
+        (
+            [name] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [full_path] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpA700.tmp
+            [error] => 0
+            [size] => 62525
+        )
+
+    [uploaded_photo_2] => Array
+        (
+            [name] => download.jfif
+            [full_path] => download.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpA701.tmp
+            [error] => 0
+            [size] => 13190
+        )
+
+    [uploaded_photo_3] => Array
+        (
+            [name] => images.jfif
+            [full_path] => images.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpA702.tmp
+            [error] => 0
+            [size] => 7108
+        )
+
+)
+
+[19-Jan-2026 16:30:53 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 16:30:53 Europe/Berlin] Date: 2020-01-19
+[19-Jan-2026 16:30:53 Europe/Berlin] Severity: high
+[19-Jan-2026 16:30:53 Europe/Berlin] Description: road damage
+[19-Jan-2026 16:30:53 Europe/Berlin] Priority: high
+[19-Jan-2026 16:30:53 Europe/Berlin] Notes: priority
+[19-Jan-2026 16:30:53 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4e2d5242c_1.jpg
+[19-Jan-2026 16:30:53 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4e2d52700_2.jpg
+[19-Jan-2026 16:30:53 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4e2d532d8_3.jpg
+[19-Jan-2026 16:30:53 Europe/Berlin] Photos array: Array
+(
+    [0] => DR-2026-696e4e2d5242c_1.jpg
+    [1] => DR-2026-696e4e2d52700_2.jpg
+    [2] => DR-2026-696e4e2d532d8_3.jpg
+)
+
+[19-Jan-2026 16:30:53 Europe/Berlin] Generated inspection ID: INSP-2026-1833
+[19-Jan-2026 16:30:53 Europe/Berlin] CRITICAL ERROR: Column count doesn't match value count at row 1
+[19-Jan-2026 16:30:53 Europe/Berlin] Error trace: #0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(97): mysqli->prepare('\r\n        INSER...')
+#1 {main}
+[19-Jan-2026 16:30:57 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 16:30:57 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2020-01-19
+    [severity] => high
+    [estimated_cost] => 1000000
+    [description] => road damage
+    [coordinates] => commonwealth
+    [priority] => high
+    [notes] => priority
+    [engineer_id] => 17
+    [created_at] => 2026-01-19T15:30:57.414Z
+)
+
+[19-Jan-2026 16:30:57 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\phpB710.tmp
+                    [1] => C:\xampp\tmp\phpB711.tmp
+                    [2] => C:\xampp\tmp\phpB712.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 62525
+                    [1] => 13190
+                    [2] => 7108
+                )
+
+        )
+
+    [uploaded_photo_1] => Array
+        (
+            [name] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [full_path] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpB713.tmp
+            [error] => 0
+            [size] => 62525
+        )
+
+    [uploaded_photo_2] => Array
+        (
+            [name] => download.jfif
+            [full_path] => download.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpB714.tmp
+            [error] => 0
+            [size] => 13190
+        )
+
+    [uploaded_photo_3] => Array
+        (
+            [name] => images.jfif
+            [full_path] => images.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpB715.tmp
+            [error] => 0
+            [size] => 7108
+        )
+
+)
+
+[19-Jan-2026 16:30:57 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 16:30:57 Europe/Berlin] Date: 2020-01-19
+[19-Jan-2026 16:30:57 Europe/Berlin] Severity: high
+[19-Jan-2026 16:30:57 Europe/Berlin] Description: road damage
+[19-Jan-2026 16:30:57 Europe/Berlin] Priority: high
+[19-Jan-2026 16:30:57 Europe/Berlin] Notes: priority
+[19-Jan-2026 16:30:57 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4e316ea90_1.jpg
+[19-Jan-2026 16:30:57 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4e316edb3_2.jpg
+[19-Jan-2026 16:30:57 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4e316f01f_3.jpg
+[19-Jan-2026 16:30:57 Europe/Berlin] Photos array: Array
+(
+    [0] => DR-2026-696e4e316ea90_1.jpg
+    [1] => DR-2026-696e4e316edb3_2.jpg
+    [2] => DR-2026-696e4e316f01f_3.jpg
+)
+
+[19-Jan-2026 16:30:57 Europe/Berlin] Generated inspection ID: INSP-2026-7221
+[19-Jan-2026 16:30:57 Europe/Berlin] CRITICAL ERROR: Column count doesn't match value count at row 1
+[19-Jan-2026 16:30:57 Europe/Berlin] Error trace: #0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(97): mysqli->prepare('\r\n        INSER...')
+#1 {main}
+[19-Jan-2026 16:34:29 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 16:34:29 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2020-01-19
+    [severity] => high
+    [estimated_cost] => 1000000
+    [description] => road damage
+    [coordinates] => 14.68° N, 121.03° E
+    [priority] => high
+    [notes] => priority
+    [engineer_id] => 17
+    [created_at] => 2026-01-19T15:34:29.640Z
+)
+
+[19-Jan-2026 16:34:29 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\phpF411.tmp
+                    [1] => C:\xampp\tmp\phpF412.tmp
+                    [2] => C:\xampp\tmp\phpF413.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 62525
+                    [1] => 13190
+                    [2] => 7108
+                )
+
+        )
+
+    [uploaded_photo_1] => Array
+        (
+            [name] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [full_path] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpF423.tmp
+            [error] => 0
+            [size] => 62525
+        )
+
+    [uploaded_photo_2] => Array
+        (
+            [name] => download.jfif
+            [full_path] => download.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpF424.tmp
+            [error] => 0
+            [size] => 13190
+        )
+
+    [uploaded_photo_3] => Array
+        (
+            [name] => images.jfif
+            [full_path] => images.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpF425.tmp
+            [error] => 0
+            [size] => 7108
+        )
+
+)
+
+[19-Jan-2026 16:34:29 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 16:34:29 Europe/Berlin] Date: 2020-01-19
+[19-Jan-2026 16:34:29 Europe/Berlin] Severity: high
+[19-Jan-2026 16:34:29 Europe/Berlin] Description: road damage
+[19-Jan-2026 16:34:29 Europe/Berlin] Priority: high
+[19-Jan-2026 16:34:29 Europe/Berlin] Notes: priority
+[19-Jan-2026 16:34:29 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4f05ad55b_1.jpg
+[19-Jan-2026 16:34:29 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4f05adc35_2.jpg
+[19-Jan-2026 16:34:29 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4f05ae62d_3.jpg
+[19-Jan-2026 16:34:29 Europe/Berlin] Photos array: Array
+(
+    [0] => DR-2026-696e4f05ad55b_1.jpg
+    [1] => DR-2026-696e4f05adc35_2.jpg
+    [2] => DR-2026-696e4f05ae62d_3.jpg
+)
+
+[19-Jan-2026 16:34:29 Europe/Berlin] Generated inspection ID: INSP-2026-7863
+[19-Jan-2026 16:34:29 Europe/Berlin] CRITICAL ERROR: Column count doesn't match value count at row 1
+[19-Jan-2026 16:34:29 Europe/Berlin] Error trace: #0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(97): mysqli->prepare('\r\n        INSER...')
+#1 {main}
+[19-Jan-2026 16:34:33 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 16:34:33 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2020-01-19
+    [severity] => high
+    [estimated_cost] => 1000000
+    [description] => road damage
+    [coordinates] => 14.68° N, 121.03° E
+    [priority] => high
+    [notes] => priority
+    [engineer_id] => 17
+    [created_at] => 2026-01-19T15:34:33.566Z
+)
+
+[19-Jan-2026 16:34:33 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\php369.tmp
+                    [1] => C:\xampp\tmp\php36A.tmp
+                    [2] => C:\xampp\tmp\php36B.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 62525
+                    [1] => 13190
+                    [2] => 7108
+                )
+
+        )
+
+    [uploaded_photo_1] => Array
+        (
+            [name] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [full_path] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php36C.tmp
+            [error] => 0
+            [size] => 62525
+        )
+
+    [uploaded_photo_2] => Array
+        (
+            [name] => download.jfif
+            [full_path] => download.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php37C.tmp
+            [error] => 0
+            [size] => 13190
+        )
+
+    [uploaded_photo_3] => Array
+        (
+            [name] => images.jfif
+            [full_path] => images.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php37D.tmp
+            [error] => 0
+            [size] => 7108
+        )
+
+)
+
+[19-Jan-2026 16:34:33 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 16:34:33 Europe/Berlin] Date: 2020-01-19
+[19-Jan-2026 16:34:33 Europe/Berlin] Severity: high
+[19-Jan-2026 16:34:33 Europe/Berlin] Description: road damage
+[19-Jan-2026 16:34:33 Europe/Berlin] Priority: high
+[19-Jan-2026 16:34:33 Europe/Berlin] Notes: priority
+[19-Jan-2026 16:34:33 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4f098e788_1.jpg
+[19-Jan-2026 16:34:33 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4f098ea2a_2.jpg
+[19-Jan-2026 16:34:33 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4f098ecfe_3.jpg
+[19-Jan-2026 16:34:33 Europe/Berlin] Photos array: Array
+(
+    [0] => DR-2026-696e4f098e788_1.jpg
+    [1] => DR-2026-696e4f098ea2a_2.jpg
+    [2] => DR-2026-696e4f098ecfe_3.jpg
+)
+
+[19-Jan-2026 16:34:33 Europe/Berlin] Generated inspection ID: INSP-2026-5000
+[19-Jan-2026 16:34:33 Europe/Berlin] CRITICAL ERROR: Column count doesn't match value count at row 1
+[19-Jan-2026 16:34:33 Europe/Berlin] Error trace: #0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(97): mysqli->prepare('\r\n        INSER...')
+#1 {main}
+[19-Jan-2026 16:36:06 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 16:36:06 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2020-01-19
+    [severity] => high
+    [estimated_cost] => 1000000
+    [description] => road damage
+    [coordinates] => 14.68° N, 121.03° E
+    [priority] => high
+    [notes] => priority
+    [engineer_id] => 17
+    [created_at] => 2026-01-19T15:36:06.806Z
+)
+
+[19-Jan-2026 16:36:06 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\php6FB1.tmp
+                    [1] => C:\xampp\tmp\php6FB2.tmp
+                    [2] => C:\xampp\tmp\php6FB3.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 62525
+                    [1] => 13190
+                    [2] => 7108
+                )
+
+        )
+
+    [uploaded_photo_1] => Array
+        (
+            [name] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [full_path] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php6FB4.tmp
+            [error] => 0
+            [size] => 62525
+        )
+
+    [uploaded_photo_2] => Array
+        (
+            [name] => download.jfif
+            [full_path] => download.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php6FB5.tmp
+            [error] => 0
+            [size] => 13190
+        )
+
+    [uploaded_photo_3] => Array
+        (
+            [name] => images.jfif
+            [full_path] => images.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php6FB6.tmp
+            [error] => 0
+            [size] => 7108
+        )
+
+)
+
+[19-Jan-2026 16:36:06 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 16:36:06 Europe/Berlin] Date: 2020-01-19
+[19-Jan-2026 16:36:06 Europe/Berlin] Severity: high
+[19-Jan-2026 16:36:06 Europe/Berlin] Description: road damage
+[19-Jan-2026 16:36:06 Europe/Berlin] Priority: high
+[19-Jan-2026 16:36:06 Europe/Berlin] Notes: priority
+[19-Jan-2026 16:36:06 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4f66d0f06_1.jpg
+[19-Jan-2026 16:36:06 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4f66d11e4_2.jpg
+[19-Jan-2026 16:36:06 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4f66d1558_3.jpg
+[19-Jan-2026 16:36:06 Europe/Berlin] Photos array: Array
+(
+    [0] => DR-2026-696e4f66d0f06_1.jpg
+    [1] => DR-2026-696e4f66d11e4_2.jpg
+    [2] => DR-2026-696e4f66d1558_3.jpg
+)
+
+[19-Jan-2026 16:36:06 Europe/Berlin] Generated inspection ID: INSP-2026-1445
+[19-Jan-2026 16:36:06 Europe/Berlin] CRITICAL ERROR: Unknown column 'coordinates' in 'field list'
+[19-Jan-2026 16:36:06 Europe/Berlin] Error trace: #0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(97): mysqli->prepare('\r\n        INSER...')
+#1 {main}
+[19-Jan-2026 16:36:07 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 16:36:07 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2020-01-19
+    [severity] => high
+    [estimated_cost] => 1000000
+    [description] => road damage
+    [coordinates] => 14.68° N, 121.03° E
+    [priority] => high
+    [notes] => priority
+    [engineer_id] => 17
+    [created_at] => 2026-01-19T15:36:07.798Z
+)
+
+[19-Jan-2026 16:36:07 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\php738F.tmp
+                    [1] => C:\xampp\tmp\php7390.tmp
+                    [2] => C:\xampp\tmp\php7391.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 62525
+                    [1] => 13190
+                    [2] => 7108
+                )
+
+        )
+
+    [uploaded_photo_1] => Array
+        (
+            [name] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [full_path] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php7392.tmp
+            [error] => 0
+            [size] => 62525
+        )
+
+    [uploaded_photo_2] => Array
+        (
+            [name] => download.jfif
+            [full_path] => download.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php7393.tmp
+            [error] => 0
+            [size] => 13190
+        )
+
+    [uploaded_photo_3] => Array
+        (
+            [name] => images.jfif
+            [full_path] => images.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php7394.tmp
+            [error] => 0
+            [size] => 7108
+        )
+
+)
+
+[19-Jan-2026 16:36:07 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 16:36:07 Europe/Berlin] Date: 2020-01-19
+[19-Jan-2026 16:36:07 Europe/Berlin] Severity: high
+[19-Jan-2026 16:36:07 Europe/Berlin] Description: road damage
+[19-Jan-2026 16:36:07 Europe/Berlin] Priority: high
+[19-Jan-2026 16:36:07 Europe/Berlin] Notes: priority
+[19-Jan-2026 16:36:07 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4f67ce5bd_1.jpg
+[19-Jan-2026 16:36:07 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4f67ce973_2.jpg
+[19-Jan-2026 16:36:07 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4f67ced80_3.jpg
+[19-Jan-2026 16:36:07 Europe/Berlin] Photos array: Array
+(
+    [0] => DR-2026-696e4f67ce5bd_1.jpg
+    [1] => DR-2026-696e4f67ce973_2.jpg
+    [2] => DR-2026-696e4f67ced80_3.jpg
+)
+
+[19-Jan-2026 16:36:07 Europe/Berlin] Generated inspection ID: INSP-2026-6683
+[19-Jan-2026 16:36:07 Europe/Berlin] CRITICAL ERROR: Unknown column 'coordinates' in 'field list'
+[19-Jan-2026 16:36:07 Europe/Berlin] Error trace: #0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(97): mysqli->prepare('\r\n        INSER...')
+#1 {main}
+[19-Jan-2026 16:36:08 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 16:36:08 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2020-01-19
+    [severity] => high
+    [estimated_cost] => 1000000
+    [description] => road damage
+    [coordinates] => 14.68° N, 121.03° E
+    [priority] => high
+    [notes] => priority
+    [engineer_id] => 17
+    [created_at] => 2026-01-19T15:36:08.000Z
+)
+
+[19-Jan-2026 16:36:08 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\php7460.tmp
+                    [1] => C:\xampp\tmp\php7461.tmp
+                    [2] => C:\xampp\tmp\php7462.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 62525
+                    [1] => 13190
+                    [2] => 7108
+                )
+
+        )
+
+    [uploaded_photo_1] => Array
+        (
+            [name] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [full_path] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php7473.tmp
+            [error] => 0
+            [size] => 62525
+        )
+
+    [uploaded_photo_2] => Array
+        (
+            [name] => download.jfif
+            [full_path] => download.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php7474.tmp
+            [error] => 0
+            [size] => 13190
+        )
+
+    [uploaded_photo_3] => Array
+        (
+            [name] => images.jfif
+            [full_path] => images.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php7475.tmp
+            [error] => 0
+            [size] => 7108
+        )
+
+)
+
+[19-Jan-2026 16:36:08 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 16:36:08 Europe/Berlin] Date: 2020-01-19
+[19-Jan-2026 16:36:08 Europe/Berlin] Severity: high
+[19-Jan-2026 16:36:08 Europe/Berlin] Description: road damage
+[19-Jan-2026 16:36:08 Europe/Berlin] Priority: high
+[19-Jan-2026 16:36:08 Europe/Berlin] Notes: priority
+[19-Jan-2026 16:36:08 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4f680d908_1.jpg
+[19-Jan-2026 16:36:08 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4f680e376_2.jpg
+[19-Jan-2026 16:36:08 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4f680e7e1_3.jpg
+[19-Jan-2026 16:36:08 Europe/Berlin] Photos array: Array
+(
+    [0] => DR-2026-696e4f680d908_1.jpg
+    [1] => DR-2026-696e4f680e376_2.jpg
+    [2] => DR-2026-696e4f680e7e1_3.jpg
+)
+
+[19-Jan-2026 16:36:08 Europe/Berlin] Generated inspection ID: INSP-2026-3966
+[19-Jan-2026 16:36:08 Europe/Berlin] CRITICAL ERROR: Unknown column 'coordinates' in 'field list'
+[19-Jan-2026 16:36:08 Europe/Berlin] Error trace: #0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(97): mysqli->prepare('\r\n        INSER...')
+#1 {main}
+[19-Jan-2026 16:36:08 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 16:36:08 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2020-01-19
+    [severity] => high
+    [estimated_cost] => 1000000
+    [description] => road damage
+    [coordinates] => 14.68° N, 121.03° E
+    [priority] => high
+    [notes] => priority
+    [engineer_id] => 17
+    [created_at] => 2026-01-19T15:36:08.359Z
+)
+
+[19-Jan-2026 16:36:08 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\php75CE.tmp
+                    [1] => C:\xampp\tmp\php75CF.tmp
+                    [2] => C:\xampp\tmp\php75DF.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 62525
+                    [1] => 13190
+                    [2] => 7108
+                )
+
+        )
+
+    [uploaded_photo_1] => Array
+        (
+            [name] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [full_path] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php75E0.tmp
+            [error] => 0
+            [size] => 62525
+        )
+
+    [uploaded_photo_2] => Array
+        (
+            [name] => download.jfif
+            [full_path] => download.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php75E1.tmp
+            [error] => 0
+            [size] => 13190
+        )
+
+    [uploaded_photo_3] => Array
+        (
+            [name] => images.jfif
+            [full_path] => images.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php75E2.tmp
+            [error] => 0
+            [size] => 7108
+        )
+
+)
+
+[19-Jan-2026 16:36:08 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 16:36:08 Europe/Berlin] Date: 2020-01-19
+[19-Jan-2026 16:36:08 Europe/Berlin] Severity: high
+[19-Jan-2026 16:36:08 Europe/Berlin] Description: road damage
+[19-Jan-2026 16:36:08 Europe/Berlin] Priority: high
+[19-Jan-2026 16:36:08 Europe/Berlin] Notes: priority
+[19-Jan-2026 16:36:08 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4f685f43c_1.jpg
+[19-Jan-2026 16:36:08 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4f685f8ee_2.jpg
+[19-Jan-2026 16:36:08 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4f685fc08_3.jpg
+[19-Jan-2026 16:36:08 Europe/Berlin] Photos array: Array
+(
+    [0] => DR-2026-696e4f685f43c_1.jpg
+    [1] => DR-2026-696e4f685f8ee_2.jpg
+    [2] => DR-2026-696e4f685fc08_3.jpg
+)
+
+[19-Jan-2026 16:36:08 Europe/Berlin] Generated inspection ID: INSP-2026-1947
+[19-Jan-2026 16:36:08 Europe/Berlin] CRITICAL ERROR: Unknown column 'coordinates' in 'field list'
+[19-Jan-2026 16:36:08 Europe/Berlin] Error trace: #0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(97): mysqli->prepare('\r\n        INSER...')
+#1 {main}
+[19-Jan-2026 16:36:17 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 16:36:17 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2020-01-19
+    [severity] => high
+    [estimated_cost] => 1000000
+    [description] => road damage
+    [coordinates] => 14.68° N, 121.03° E
+    [priority] => high
+    [notes] => priority
+    [engineer_id] => 17
+    [created_at] => 2026-01-19T15:36:17.407Z
+)
+
+[19-Jan-2026 16:36:17 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\php992A.tmp
+                    [1] => C:\xampp\tmp\php992B.tmp
+                    [2] => C:\xampp\tmp\php992C.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 62525
+                    [1] => 13190
+                    [2] => 7108
+                )
+
+        )
+
+    [uploaded_photo_1] => Array
+        (
+            [name] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [full_path] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php992D.tmp
+            [error] => 0
+            [size] => 62525
+        )
+
+    [uploaded_photo_2] => Array
+        (
+            [name] => download.jfif
+            [full_path] => download.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php992E.tmp
+            [error] => 0
+            [size] => 13190
+        )
+
+    [uploaded_photo_3] => Array
+        (
+            [name] => images.jfif
+            [full_path] => images.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php992F.tmp
+            [error] => 0
+            [size] => 7108
+        )
+
+)
+
+[19-Jan-2026 16:36:17 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 16:36:17 Europe/Berlin] Date: 2020-01-19
+[19-Jan-2026 16:36:17 Europe/Berlin] Severity: high
+[19-Jan-2026 16:36:17 Europe/Berlin] Description: road damage
+[19-Jan-2026 16:36:17 Europe/Berlin] Priority: high
+[19-Jan-2026 16:36:17 Europe/Berlin] Notes: priority
+[19-Jan-2026 16:36:17 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4f716dd33_1.jpg
+[19-Jan-2026 16:36:17 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4f716dfce_2.jpg
+[19-Jan-2026 16:36:17 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4f716e346_3.jpg
+[19-Jan-2026 16:36:17 Europe/Berlin] Photos array: Array
+(
+    [0] => DR-2026-696e4f716dd33_1.jpg
+    [1] => DR-2026-696e4f716dfce_2.jpg
+    [2] => DR-2026-696e4f716e346_3.jpg
+)
+
+[19-Jan-2026 16:36:17 Europe/Berlin] Generated inspection ID: INSP-2026-9781
+[19-Jan-2026 16:36:17 Europe/Berlin] CRITICAL ERROR: Unknown column 'coordinates' in 'field list'
+[19-Jan-2026 16:36:17 Europe/Berlin] Error trace: #0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(97): mysqli->prepare('\r\n        INSER...')
+#1 {main}
+[19-Jan-2026 16:38:07 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 16:38:07 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2020-01-19
+    [severity] => high
+    [estimated_cost] => 1000000
+    [description] => road damage
+    [coordinates] => 14.68° N, 121.03° E
+    [priority] => high
+    [notes] => priority
+    [engineer_id] => 17
+    [created_at] => 2026-01-19T15:38:07.535Z
+)
+
+[19-Jan-2026 16:38:07 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\php475D.tmp
+                    [1] => C:\xampp\tmp\php475E.tmp
+                    [2] => C:\xampp\tmp\php475F.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 62525
+                    [1] => 13190
+                    [2] => 7108
+                )
+
+        )
+
+    [uploaded_photo_1] => Array
+        (
+            [name] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [full_path] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php4760.tmp
+            [error] => 0
+            [size] => 62525
+        )
+
+    [uploaded_photo_2] => Array
+        (
+            [name] => download.jfif
+            [full_path] => download.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php4771.tmp
+            [error] => 0
+            [size] => 13190
+        )
+
+    [uploaded_photo_3] => Array
+        (
+            [name] => images.jfif
+            [full_path] => images.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php4772.tmp
+            [error] => 0
+            [size] => 7108
+        )
+
+)
+
+[19-Jan-2026 16:38:07 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 16:38:07 Europe/Berlin] Date: 2020-01-19
+[19-Jan-2026 16:38:07 Europe/Berlin] Severity: high
+[19-Jan-2026 16:38:07 Europe/Berlin] Description: road damage
+[19-Jan-2026 16:38:07 Europe/Berlin] Priority: high
+[19-Jan-2026 16:38:07 Europe/Berlin] Notes: priority
+[19-Jan-2026 16:38:07 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4fdf89ca2_1.jpg
+[19-Jan-2026 16:38:07 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4fdf89fb8_2.jpg
+[19-Jan-2026 16:38:07 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4fdf8a399_3.jpg
+[19-Jan-2026 16:38:07 Europe/Berlin] Photos array: Array
+(
+    [0] => DR-2026-696e4fdf89ca2_1.jpg
+    [1] => DR-2026-696e4fdf89fb8_2.jpg
+    [2] => DR-2026-696e4fdf8a399_3.jpg
+)
+
+[19-Jan-2026 16:38:07 Europe/Berlin] Generated inspection ID: INSP-2026-4326
+[19-Jan-2026 16:38:07 Europe/Berlin] CRITICAL ERROR: Unknown column 'coordinates' in 'field list'
+[19-Jan-2026 16:38:07 Europe/Berlin] Error trace: #0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(97): mysqli->prepare('\r\n        INSER...')
+#1 {main}
+[19-Jan-2026 16:38:08 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 16:38:08 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2020-01-19
+    [severity] => high
+    [estimated_cost] => 1000000
+    [description] => road damage
+    [coordinates] => 14.68° N, 121.03° E
+    [priority] => high
+    [notes] => priority
+    [engineer_id] => 17
+    [created_at] => 2026-01-19T15:38:08.767Z
+)
+
+[19-Jan-2026 16:38:08 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\php4C36.tmp
+                    [1] => C:\xampp\tmp\php4C37.tmp
+                    [2] => C:\xampp\tmp\php4C38.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 62525
+                    [1] => 13190
+                    [2] => 7108
+                )
+
+        )
+
+    [uploaded_photo_1] => Array
+        (
+            [name] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [full_path] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php4C39.tmp
+            [error] => 0
+            [size] => 62525
+        )
+
+    [uploaded_photo_2] => Array
+        (
+            [name] => download.jfif
+            [full_path] => download.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php4C3A.tmp
+            [error] => 0
+            [size] => 13190
+        )
+
+    [uploaded_photo_3] => Array
+        (
+            [name] => images.jfif
+            [full_path] => images.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php4C4A.tmp
+            [error] => 0
+            [size] => 7108
+        )
+
+)
+
+[19-Jan-2026 16:38:08 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 16:38:08 Europe/Berlin] Date: 2020-01-19
+[19-Jan-2026 16:38:08 Europe/Berlin] Severity: high
+[19-Jan-2026 16:38:08 Europe/Berlin] Description: road damage
+[19-Jan-2026 16:38:08 Europe/Berlin] Priority: high
+[19-Jan-2026 16:38:08 Europe/Berlin] Notes: priority
+[19-Jan-2026 16:38:08 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4fe0c3abf_1.jpg
+[19-Jan-2026 16:38:08 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4fe0c3d67_2.jpg
+[19-Jan-2026 16:38:08 Europe/Berlin] Successfully uploaded photo: DR-2026-696e4fe0c3fd8_3.jpg
+[19-Jan-2026 16:38:08 Europe/Berlin] Photos array: Array
+(
+    [0] => DR-2026-696e4fe0c3abf_1.jpg
+    [1] => DR-2026-696e4fe0c3d67_2.jpg
+    [2] => DR-2026-696e4fe0c3fd8_3.jpg
+)
+
+[19-Jan-2026 16:38:08 Europe/Berlin] Generated inspection ID: INSP-2026-9194
+[19-Jan-2026 16:38:08 Europe/Berlin] CRITICAL ERROR: Unknown column 'coordinates' in 'field list'
+[19-Jan-2026 16:38:08 Europe/Berlin] Error trace: #0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(97): mysqli->prepare('\r\n        INSER...')
+#1 {main}
+[19-Jan-2026 16:41:11 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 16:41:11 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2020-01-19
+    [severity] => high
+    [estimated_cost] => 1000000
+    [description] => adadad
+    [coordinates] => 14.68° N, 121.03° E
+    [priority] => high
+    [notes] => asddsasd
+    [engineer_id] => 17
+    [created_at] => 2026-01-19T15:41:10.945Z
+)
+
+[19-Jan-2026 16:41:11 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\php13F7.tmp
+                    [1] => C:\xampp\tmp\php13F8.tmp
+                    [2] => C:\xampp\tmp\php13F9.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 62525
+                    [1] => 13190
+                    [2] => 7108
+                )
+
+        )
+
+    [uploaded_photo_1] => Array
+        (
+            [name] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [full_path] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php13FA.tmp
+            [error] => 0
+            [size] => 62525
+        )
+
+    [uploaded_photo_2] => Array
+        (
+            [name] => download.jfif
+            [full_path] => download.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php13FB.tmp
+            [error] => 0
+            [size] => 13190
+        )
+
+    [uploaded_photo_3] => Array
+        (
+            [name] => images.jfif
+            [full_path] => images.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php140C.tmp
+            [error] => 0
+            [size] => 7108
+        )
+
+)
+
+[19-Jan-2026 16:41:11 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 16:41:11 Europe/Berlin] Date: 2020-01-19
+[19-Jan-2026 16:41:11 Europe/Berlin] Severity: high
+[19-Jan-2026 16:41:11 Europe/Berlin] Description: adadad
+[19-Jan-2026 16:41:11 Europe/Berlin] Priority: high
+[19-Jan-2026 16:41:11 Europe/Berlin] Notes: asddsasd
+[19-Jan-2026 16:41:11 Europe/Berlin] Successfully uploaded photo: DR-2026-696e509707042_1.jpg
+[19-Jan-2026 16:41:11 Europe/Berlin] Successfully uploaded photo: DR-2026-696e509707376_2.jpg
+[19-Jan-2026 16:41:11 Europe/Berlin] Successfully uploaded photo: DR-2026-696e5097077b0_3.jpg
+[19-Jan-2026 16:41:11 Europe/Berlin] Photos array: Array
+(
+    [0] => DR-2026-696e509707042_1.jpg
+    [1] => DR-2026-696e509707376_2.jpg
+    [2] => DR-2026-696e5097077b0_3.jpg
+)
+
+[19-Jan-2026 16:41:11 Europe/Berlin] Generated inspection ID: INSP-2026-2183
+[19-Jan-2026 16:41:11 Europe/Berlin] CRITICAL ERROR: Unknown column 'coordinates' in 'field list'
+[19-Jan-2026 16:41:11 Europe/Berlin] Error trace: #0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(97): mysqli->prepare('\r\n        INSER...')
+#1 {main}
+[19-Jan-2026 17:15:11 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 17:15:11 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2020-01-19
+    [severity] => high
+    [priority] => high
+    [estimated_cost] => 1000000
+    [description] => road damage
+)
+
+[19-Jan-2026 17:15:11 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 
+                    [1] => 
+                    [2] => 
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 
+                    [1] => 
+                    [2] => 
+                )
+
+            [type] => Array
+                (
+                    [0] => 
+                    [1] => 
+                    [2] => 
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => 
+                    [1] => 
+                    [2] => 
+                )
+
+            [error] => Array
+                (
+                    [0] => 4
+                    [1] => 4
+                    [2] => 4
+                )
+
+            [size] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+        )
+
+)
+
+[19-Jan-2026 17:15:11 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 17:15:11 Europe/Berlin] Date: 2020-01-19
+[19-Jan-2026 17:15:11 Europe/Berlin] Severity: high
+[19-Jan-2026 17:15:11 Europe/Berlin] Description: road damage
+[19-Jan-2026 17:15:11 Europe/Berlin] Priority: high
+[19-Jan-2026 17:15:11 Europe/Berlin] Notes: 
+[19-Jan-2026 17:15:11 Europe/Berlin] Photos array: Array
+(
+)
+
+[19-Jan-2026 17:15:11 Europe/Berlin] Generated inspection ID: INSP-2026-8147
+[19-Jan-2026 17:15:11 Europe/Berlin] CRITICAL ERROR: Unknown column 'coordinates' in 'field list'
+[19-Jan-2026 17:15:11 Europe/Berlin] Error trace: #0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(97): mysqli->prepare('\r\n        INSER...')
+#1 {main}
+[19-Jan-2026 17:15:16 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 17:15:16 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2020-01-19
+    [severity] => high
+    [priority] => high
+    [estimated_cost] => 1000000
+    [description] => road damage
+)
+
+[19-Jan-2026 17:15:16 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 
+                    [1] => 
+                    [2] => 
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 
+                    [1] => 
+                    [2] => 
+                )
+
+            [type] => Array
+                (
+                    [0] => 
+                    [1] => 
+                    [2] => 
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => 
+                    [1] => 
+                    [2] => 
+                )
+
+            [error] => Array
+                (
+                    [0] => 4
+                    [1] => 4
+                    [2] => 4
+                )
+
+            [size] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+        )
+
+)
+
+[19-Jan-2026 17:15:16 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 17:15:16 Europe/Berlin] Date: 2020-01-19
+[19-Jan-2026 17:15:16 Europe/Berlin] Severity: high
+[19-Jan-2026 17:15:16 Europe/Berlin] Description: road damage
+[19-Jan-2026 17:15:16 Europe/Berlin] Priority: high
+[19-Jan-2026 17:15:16 Europe/Berlin] Notes: 
+[19-Jan-2026 17:15:16 Europe/Berlin] Photos array: Array
+(
+)
+
+[19-Jan-2026 17:15:16 Europe/Berlin] Generated inspection ID: INSP-2026-6326
+[19-Jan-2026 17:15:16 Europe/Berlin] CRITICAL ERROR: Unknown column 'coordinates' in 'field list'
+[19-Jan-2026 17:15:16 Europe/Berlin] Error trace: #0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(97): mysqli->prepare('\r\n        INSER...')
+#1 {main}
+[19-Jan-2026 17:15:36 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 17:15:36 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2020-01-19
+    [severity] => high
+    [priority] => high
+    [estimated_cost] => 1000000
+    [description] => road damage
+)
+
+[19-Jan-2026 17:15:36 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 
+                    [1] => 
+                    [2] => 
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 
+                    [1] => 
+                    [2] => 
+                )
+
+            [type] => Array
+                (
+                    [0] => 
+                    [1] => 
+                    [2] => 
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => 
+                    [1] => 
+                    [2] => 
+                )
+
+            [error] => Array
+                (
+                    [0] => 4
+                    [1] => 4
+                    [2] => 4
+                )
+
+            [size] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+        )
+
+)
+
+[19-Jan-2026 17:15:36 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 17:15:36 Europe/Berlin] Date: 2020-01-19
+[19-Jan-2026 17:15:36 Europe/Berlin] Severity: high
+[19-Jan-2026 17:15:36 Europe/Berlin] Description: road damage
+[19-Jan-2026 17:15:36 Europe/Berlin] Priority: high
+[19-Jan-2026 17:15:36 Europe/Berlin] Notes: 
+[19-Jan-2026 17:15:36 Europe/Berlin] Photos array: Array
+(
+)
+
+[19-Jan-2026 17:15:36 Europe/Berlin] Generated inspection ID: INSP-2026-1044
+[19-Jan-2026 17:15:36 Europe/Berlin] CRITICAL ERROR: Unknown column 'coordinates' in 'field list'
+[19-Jan-2026 17:15:36 Europe/Berlin] Error trace: #0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(97): mysqli->prepare('\r\n        INSER...')
+#1 {main}
+[19-Jan-2026 17:15:41 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 17:15:41 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2020-01-19
+    [severity] => high
+    [priority] => high
+    [estimated_cost] => 1000000
+    [description] => road damage
+)
+
+[19-Jan-2026 17:15:41 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 
+                    [1] => 
+                    [2] => 
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 
+                    [1] => 
+                    [2] => 
+                )
+
+            [type] => Array
+                (
+                    [0] => 
+                    [1] => 
+                    [2] => 
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => 
+                    [1] => 
+                    [2] => 
+                )
+
+            [error] => Array
+                (
+                    [0] => 4
+                    [1] => 4
+                    [2] => 4
+                )
+
+            [size] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+        )
+
+)
+
+[19-Jan-2026 17:15:41 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 17:15:41 Europe/Berlin] Date: 2020-01-19
+[19-Jan-2026 17:15:41 Europe/Berlin] Severity: high
+[19-Jan-2026 17:15:41 Europe/Berlin] Description: road damage
+[19-Jan-2026 17:15:41 Europe/Berlin] Priority: high
+[19-Jan-2026 17:15:41 Europe/Berlin] Notes: 
+[19-Jan-2026 17:15:41 Europe/Berlin] Photos array: Array
+(
+)
+
+[19-Jan-2026 17:15:41 Europe/Berlin] Generated inspection ID: INSP-2026-4267
+[19-Jan-2026 17:15:41 Europe/Berlin] CRITICAL ERROR: Unknown column 'coordinates' in 'field list'
+[19-Jan-2026 17:15:41 Europe/Berlin] Error trace: #0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(97): mysqli->prepare('\r\n        INSER...')
+#1 {main}
+[19-Jan-2026 17:16:00 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 17:16:00 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2020-01-19
+    [severity] => high
+    [priority] => high
+    [estimated_cost] => 1000000
+    [description] => road damage
+)
+
+[19-Jan-2026 17:16:00 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 
+                    [1] => 
+                    [2] => 
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 
+                    [1] => 
+                    [2] => 
+                )
+
+            [type] => Array
+                (
+                    [0] => 
+                    [1] => 
+                    [2] => 
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => 
+                    [1] => 
+                    [2] => 
+                )
+
+            [error] => Array
+                (
+                    [0] => 4
+                    [1] => 4
+                    [2] => 4
+                )
+
+            [size] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+        )
+
+)
+
+[19-Jan-2026 17:16:00 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 17:16:00 Europe/Berlin] Date: 2020-01-19
+[19-Jan-2026 17:16:00 Europe/Berlin] Severity: high
+[19-Jan-2026 17:16:00 Europe/Berlin] Description: road damage
+[19-Jan-2026 17:16:00 Europe/Berlin] Priority: high
+[19-Jan-2026 17:16:00 Europe/Berlin] Notes: 
+[19-Jan-2026 17:16:00 Europe/Berlin] Photos array: Array
+(
+)
+
+[19-Jan-2026 17:16:00 Europe/Berlin] Generated inspection ID: INSP-2026-0724
+[19-Jan-2026 17:16:00 Europe/Berlin] CRITICAL ERROR: Unknown column 'coordinates' in 'field list'
+[19-Jan-2026 17:16:00 Europe/Berlin] Error trace: #0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(97): mysqli->prepare('\r\n        INSER...')
+#1 {main}
+[19-Jan-2026 17:17:19 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 17:17:19 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2026-01-19
+    [severity] => high
+    [priority] => high
+    [estimated_cost] => 111111111
+    [description] => road damage
+)
+
+[19-Jan-2026 17:17:19 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\php285F.tmp
+                    [1] => C:\xampp\tmp\php2860.tmp
+                    [2] => C:\xampp\tmp\php2861.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 62525
+                    [1] => 13190
+                    [2] => 7108
+                )
+
+        )
+
+    [uploaded_photo_1] => Array
+        (
+            [name] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [full_path] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php2872.tmp
+            [error] => 0
+            [size] => 62525
+        )
+
+    [uploaded_photo_2] => Array
+        (
+            [name] => download.jfif
+            [full_path] => download.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php2873.tmp
+            [error] => 0
+            [size] => 13190
+        )
+
+    [uploaded_photo_3] => Array
+        (
+            [name] => images.jfif
+            [full_path] => images.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php2874.tmp
+            [error] => 0
+            [size] => 7108
+        )
+
+)
+
+[19-Jan-2026 17:17:19 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 17:17:19 Europe/Berlin] Date: 2026-01-19
+[19-Jan-2026 17:17:19 Europe/Berlin] Severity: high
+[19-Jan-2026 17:17:19 Europe/Berlin] Description: road damage
+[19-Jan-2026 17:17:19 Europe/Berlin] Priority: high
+[19-Jan-2026 17:17:19 Europe/Berlin] Notes: 
+[19-Jan-2026 17:17:19 Europe/Berlin] Successfully uploaded photo: DR-2026-696e590fe89ee_1.jpg
+[19-Jan-2026 17:17:19 Europe/Berlin] Successfully uploaded photo: DR-2026-696e590fe8f3e_2.jpg
+[19-Jan-2026 17:17:19 Europe/Berlin] Successfully uploaded photo: DR-2026-696e590fe9271_3.jpg
+[19-Jan-2026 17:17:19 Europe/Berlin] Photos array: Array
+(
+    [0] => DR-2026-696e590fe89ee_1.jpg
+    [1] => DR-2026-696e590fe8f3e_2.jpg
+    [2] => DR-2026-696e590fe9271_3.jpg
+)
+
+[19-Jan-2026 17:17:19 Europe/Berlin] Generated inspection ID: INSP-2026-9698
+[19-Jan-2026 17:17:19 Europe/Berlin] CRITICAL ERROR: Column count doesn't match value count at row 1
+[19-Jan-2026 17:17:19 Europe/Berlin] Error trace: #0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(96): mysqli->prepare('\r\n        INSER...')
+#1 {main}
+[19-Jan-2026 17:17:23 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 17:17:23 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2026-01-19
+    [severity] => high
+    [priority] => high
+    [estimated_cost] => 111111111
+    [description] => road damage
+)
+
+[19-Jan-2026 17:17:23 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\php37A7.tmp
+                    [1] => C:\xampp\tmp\php37A8.tmp
+                    [2] => C:\xampp\tmp\php37A9.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 62525
+                    [1] => 13190
+                    [2] => 7108
+                )
+
+        )
+
+    [uploaded_photo_1] => Array
+        (
+            [name] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [full_path] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php37AA.tmp
+            [error] => 0
+            [size] => 62525
+        )
+
+    [uploaded_photo_2] => Array
+        (
+            [name] => download.jfif
+            [full_path] => download.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php37AB.tmp
+            [error] => 0
+            [size] => 13190
+        )
+
+    [uploaded_photo_3] => Array
+        (
+            [name] => images.jfif
+            [full_path] => images.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php37AC.tmp
+            [error] => 0
+            [size] => 7108
+        )
+
+)
+
+[19-Jan-2026 17:17:23 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 17:17:23 Europe/Berlin] Date: 2026-01-19
+[19-Jan-2026 17:17:23 Europe/Berlin] Severity: high
+[19-Jan-2026 17:17:23 Europe/Berlin] Description: road damage
+[19-Jan-2026 17:17:23 Europe/Berlin] Priority: high
+[19-Jan-2026 17:17:23 Europe/Berlin] Notes: 
+[19-Jan-2026 17:17:23 Europe/Berlin] Successfully uploaded photo: DR-2026-696e5913cbd93_1.jpg
+[19-Jan-2026 17:17:23 Europe/Berlin] Successfully uploaded photo: DR-2026-696e5913cc29c_2.jpg
+[19-Jan-2026 17:17:23 Europe/Berlin] Successfully uploaded photo: DR-2026-696e5913cc6aa_3.jpg
+[19-Jan-2026 17:17:23 Europe/Berlin] Photos array: Array
+(
+    [0] => DR-2026-696e5913cbd93_1.jpg
+    [1] => DR-2026-696e5913cc29c_2.jpg
+    [2] => DR-2026-696e5913cc6aa_3.jpg
+)
+
+[19-Jan-2026 17:17:23 Europe/Berlin] Generated inspection ID: INSP-2026-7717
+[19-Jan-2026 17:17:23 Europe/Berlin] CRITICAL ERROR: Column count doesn't match value count at row 1
+[19-Jan-2026 17:17:23 Europe/Berlin] Error trace: #0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(96): mysqli->prepare('\r\n        INSER...')
+#1 {main}
+[19-Jan-2026 17:18:13 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 17:18:13 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2026-01-19
+    [severity] => high
+    [priority] => high
+    [estimated_cost] => 111111111
+    [description] => road damage
+)
+
+[19-Jan-2026 17:18:13 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\phpF967.tmp
+                    [1] => C:\xampp\tmp\phpF978.tmp
+                    [2] => C:\xampp\tmp\phpF979.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 62525
+                    [1] => 13190
+                    [2] => 7108
+                )
+
+        )
+
+    [uploaded_photo_1] => Array
+        (
+            [name] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [full_path] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpF97A.tmp
+            [error] => 0
+            [size] => 62525
+        )
+
+    [uploaded_photo_2] => Array
+        (
+            [name] => download.jfif
+            [full_path] => download.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpF97B.tmp
+            [error] => 0
+            [size] => 13190
+        )
+
+    [uploaded_photo_3] => Array
+        (
+            [name] => images.jfif
+            [full_path] => images.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpF97C.tmp
+            [error] => 0
+            [size] => 7108
+        )
+
+)
+
+[19-Jan-2026 17:18:13 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 17:18:13 Europe/Berlin] Date: 2026-01-19
+[19-Jan-2026 17:18:13 Europe/Berlin] Severity: high
+[19-Jan-2026 17:18:13 Europe/Berlin] Description: road damage
+[19-Jan-2026 17:18:13 Europe/Berlin] Priority: high
+[19-Jan-2026 17:18:13 Europe/Berlin] Notes: 
+[19-Jan-2026 17:18:13 Europe/Berlin] Successfully uploaded photo: DR-2026-696e594568da5_1.jpg
+[19-Jan-2026 17:18:13 Europe/Berlin] Successfully uploaded photo: DR-2026-696e59456901a_2.jpg
+[19-Jan-2026 17:18:13 Europe/Berlin] Successfully uploaded photo: DR-2026-696e594569247_3.jpg
+[19-Jan-2026 17:18:13 Europe/Berlin] Photos array: Array
+(
+    [0] => DR-2026-696e594568da5_1.jpg
+    [1] => DR-2026-696e59456901a_2.jpg
+    [2] => DR-2026-696e594569247_3.jpg
+)
+
+[19-Jan-2026 17:18:13 Europe/Berlin] Generated inspection ID: INSP-2026-8132
+[19-Jan-2026 17:18:13 Europe/Berlin] Photos JSON: ["DR-2026-696e594568da5_1.jpg","DR-2026-696e59456901a_2.jpg","DR-2026-696e594569247_3.jpg"]
+[19-Jan-2026 17:18:13 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php:107
+Stack trace:
+#0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(107): mysqli_stmt->bind_param('sssssdsss', 'INSP-2026-8132', 'Commonwealth Av...', '2026-01-19', 'high', 'road damage', '111111111', 'high', 17, '["DR-2026-696e5...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php on line 107
+[19-Jan-2026 17:18:48 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 17:18:48 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2026-01-19
+    [severity] => high
+    [priority] => high
+    [estimated_cost] => 111111111
+    [description] => road damage
+)
+
+[19-Jan-2026 17:18:48 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\php83EA.tmp
+                    [1] => C:\xampp\tmp\php83EB.tmp
+                    [2] => C:\xampp\tmp\php83EC.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 62525
+                    [1] => 13190
+                    [2] => 7108
+                )
+
+        )
+
+    [uploaded_photo_1] => Array
+        (
+            [name] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [full_path] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php83ED.tmp
+            [error] => 0
+            [size] => 62525
+        )
+
+    [uploaded_photo_2] => Array
+        (
+            [name] => download.jfif
+            [full_path] => download.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php83EE.tmp
+            [error] => 0
+            [size] => 13190
+        )
+
+    [uploaded_photo_3] => Array
+        (
+            [name] => images.jfif
+            [full_path] => images.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php83EF.tmp
+            [error] => 0
+            [size] => 7108
+        )
+
+)
+
+[19-Jan-2026 17:18:48 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 17:18:48 Europe/Berlin] Date: 2026-01-19
+[19-Jan-2026 17:18:48 Europe/Berlin] Severity: high
+[19-Jan-2026 17:18:48 Europe/Berlin] Description: road damage
+[19-Jan-2026 17:18:48 Europe/Berlin] Priority: high
+[19-Jan-2026 17:18:48 Europe/Berlin] Notes: 
+[19-Jan-2026 17:18:48 Europe/Berlin] Successfully uploaded photo: DR-2026-696e5968d5ccd_1.jpg
+[19-Jan-2026 17:18:48 Europe/Berlin] Successfully uploaded photo: DR-2026-696e5968d607f_2.jpg
+[19-Jan-2026 17:18:48 Europe/Berlin] Successfully uploaded photo: DR-2026-696e5968d66cf_3.jpg
+[19-Jan-2026 17:18:48 Europe/Berlin] Photos array: Array
+(
+    [0] => DR-2026-696e5968d5ccd_1.jpg
+    [1] => DR-2026-696e5968d607f_2.jpg
+    [2] => DR-2026-696e5968d66cf_3.jpg
+)
+
+[19-Jan-2026 17:18:48 Europe/Berlin] Generated inspection ID: INSP-2026-4456
+[19-Jan-2026 17:18:48 Europe/Berlin] Photos JSON: ["DR-2026-696e5968d5ccd_1.jpg","DR-2026-696e5968d607f_2.jpg","DR-2026-696e5968d66cf_3.jpg"]
+[19-Jan-2026 17:18:48 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php:107
+Stack trace:
+#0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(107): mysqli_stmt->bind_param('sssssdsss', 'INSP-2026-4456', 'Commonwealth Av...', '2026-01-19', 'high', 'road damage', '111111111', 'high', 17, '["DR-2026-696e5...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php on line 107
+[19-Jan-2026 17:18:51 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 17:18:51 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2026-01-19
+    [severity] => high
+    [priority] => high
+    [estimated_cost] => 111111111
+    [description] => road damage
+)
+
+[19-Jan-2026 17:18:51 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\php8F3B.tmp
+                    [1] => C:\xampp\tmp\php8F4C.tmp
+                    [2] => C:\xampp\tmp\php8F4D.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 62525
+                    [1] => 13190
+                    [2] => 7108
+                )
+
+        )
+
+    [uploaded_photo_1] => Array
+        (
+            [name] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [full_path] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php8F4E.tmp
+            [error] => 0
+            [size] => 62525
+        )
+
+    [uploaded_photo_2] => Array
+        (
+            [name] => download.jfif
+            [full_path] => download.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php8F4F.tmp
+            [error] => 0
+            [size] => 13190
+        )
+
+    [uploaded_photo_3] => Array
+        (
+            [name] => images.jfif
+            [full_path] => images.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php8F50.tmp
+            [error] => 0
+            [size] => 7108
+        )
+
+)
+
+[19-Jan-2026 17:18:51 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 17:18:51 Europe/Berlin] Date: 2026-01-19
+[19-Jan-2026 17:18:51 Europe/Berlin] Severity: high
+[19-Jan-2026 17:18:51 Europe/Berlin] Description: road damage
+[19-Jan-2026 17:18:51 Europe/Berlin] Priority: high
+[19-Jan-2026 17:18:51 Europe/Berlin] Notes: 
+[19-Jan-2026 17:18:51 Europe/Berlin] Successfully uploaded photo: DR-2026-696e596bc3cc1_1.jpg
+[19-Jan-2026 17:18:51 Europe/Berlin] Successfully uploaded photo: DR-2026-696e596bc41a6_2.jpg
+[19-Jan-2026 17:18:51 Europe/Berlin] Successfully uploaded photo: DR-2026-696e596bc44b9_3.jpg
+[19-Jan-2026 17:18:51 Europe/Berlin] Photos array: Array
+(
+    [0] => DR-2026-696e596bc3cc1_1.jpg
+    [1] => DR-2026-696e596bc41a6_2.jpg
+    [2] => DR-2026-696e596bc44b9_3.jpg
+)
+
+[19-Jan-2026 17:18:51 Europe/Berlin] Generated inspection ID: INSP-2026-4042
+[19-Jan-2026 17:18:51 Europe/Berlin] Photos JSON: ["DR-2026-696e596bc3cc1_1.jpg","DR-2026-696e596bc41a6_2.jpg","DR-2026-696e596bc44b9_3.jpg"]
+[19-Jan-2026 17:18:51 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php:107
+Stack trace:
+#0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(107): mysqli_stmt->bind_param('sssssdsss', 'INSP-2026-4042', 'Commonwealth Av...', '2026-01-19', 'high', 'road damage', '111111111', 'high', 17, '["DR-2026-696e5...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php on line 107
+[19-Jan-2026 17:33:23 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 17:33:23 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2026-01-19
+    [severity] => high
+    [priority] => high
+    [estimated_cost] => 111111111
+    [description] => road damage
+)
+
+[19-Jan-2026 17:33:23 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\phpDCC5.tmp
+                    [1] => C:\xampp\tmp\phpDCC6.tmp
+                    [2] => C:\xampp\tmp\phpDCC7.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 62525
+                    [1] => 13190
+                    [2] => 7108
+                )
+
+        )
+
+    [uploaded_photo_1] => Array
+        (
+            [name] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [full_path] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpDCC8.tmp
+            [error] => 0
+            [size] => 62525
+        )
+
+    [uploaded_photo_2] => Array
+        (
+            [name] => download.jfif
+            [full_path] => download.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpDCC9.tmp
+            [error] => 0
+            [size] => 13190
+        )
+
+    [uploaded_photo_3] => Array
+        (
+            [name] => images.jfif
+            [full_path] => images.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpDCDA.tmp
+            [error] => 0
+            [size] => 7108
+        )
+
+)
+
+[19-Jan-2026 17:33:23 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 17:33:23 Europe/Berlin] Date: 2026-01-19
+[19-Jan-2026 17:33:23 Europe/Berlin] Severity: high
+[19-Jan-2026 17:33:23 Europe/Berlin] Description: road damage
+[19-Jan-2026 17:33:23 Europe/Berlin] Priority: high
+[19-Jan-2026 17:33:23 Europe/Berlin] Notes: 
+[19-Jan-2026 17:33:23 Europe/Berlin] Successfully uploaded photo: DR-2026-696e5cd38f21e_1.jpg
+[19-Jan-2026 17:33:23 Europe/Berlin] Successfully uploaded photo: DR-2026-696e5cd38f701_2.jpg
+[19-Jan-2026 17:33:23 Europe/Berlin] Successfully uploaded photo: DR-2026-696e5cd38f996_3.jpg
+[19-Jan-2026 17:33:23 Europe/Berlin] Photos array: Array
+(
+    [0] => DR-2026-696e5cd38f21e_1.jpg
+    [1] => DR-2026-696e5cd38f701_2.jpg
+    [2] => DR-2026-696e5cd38f996_3.jpg
+)
+
+[19-Jan-2026 17:33:23 Europe/Berlin] Generated inspection ID: INSP-2026-3220
+[19-Jan-2026 17:33:23 Europe/Berlin] Photos JSON: ["DR-2026-696e5cd38f21e_1.jpg","DR-2026-696e5cd38f701_2.jpg","DR-2026-696e5cd38f996_3.jpg"]
+[19-Jan-2026 17:33:23 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php:106
+Stack trace:
+#0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(106): mysqli_stmt->bind_param('sssssdsss', 'INSP-2026-3220', 'Commonwealth Av...', '2026-01-19', 'high', 'road damage', '111111111', 'high', 17, '["DR-2026-696e5...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php on line 106
+[19-Jan-2026 17:33:25 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 17:33:25 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2026-01-19
+    [severity] => high
+    [priority] => high
+    [estimated_cost] => 111111111
+    [description] => road damage
+)
+
+[19-Jan-2026 17:33:25 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\phpE42E.tmp
+                    [1] => C:\xampp\tmp\phpE42F.tmp
+                    [2] => C:\xampp\tmp\phpE430.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 62525
+                    [1] => 13190
+                    [2] => 7108
+                )
+
+        )
+
+    [uploaded_photo_1] => Array
+        (
+            [name] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [full_path] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpE431.tmp
+            [error] => 0
+            [size] => 62525
+        )
+
+    [uploaded_photo_2] => Array
+        (
+            [name] => download.jfif
+            [full_path] => download.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpE432.tmp
+            [error] => 0
+            [size] => 13190
+        )
+
+    [uploaded_photo_3] => Array
+        (
+            [name] => images.jfif
+            [full_path] => images.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpE433.tmp
+            [error] => 0
+            [size] => 7108
+        )
+
+)
+
+[19-Jan-2026 17:33:25 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 17:33:25 Europe/Berlin] Date: 2026-01-19
+[19-Jan-2026 17:33:25 Europe/Berlin] Severity: high
+[19-Jan-2026 17:33:25 Europe/Berlin] Description: road damage
+[19-Jan-2026 17:33:25 Europe/Berlin] Priority: high
+[19-Jan-2026 17:33:25 Europe/Berlin] Notes: 
+[19-Jan-2026 17:33:25 Europe/Berlin] Successfully uploaded photo: DR-2026-696e5cd57208e_1.jpg
+[19-Jan-2026 17:33:25 Europe/Berlin] Successfully uploaded photo: DR-2026-696e5cd57235b_2.jpg
+[19-Jan-2026 17:33:25 Europe/Berlin] Successfully uploaded photo: DR-2026-696e5cd572d0d_3.jpg
+[19-Jan-2026 17:33:25 Europe/Berlin] Photos array: Array
+(
+    [0] => DR-2026-696e5cd57208e_1.jpg
+    [1] => DR-2026-696e5cd57235b_2.jpg
+    [2] => DR-2026-696e5cd572d0d_3.jpg
+)
+
+[19-Jan-2026 17:33:25 Europe/Berlin] Generated inspection ID: INSP-2026-0667
+[19-Jan-2026 17:33:25 Europe/Berlin] Photos JSON: ["DR-2026-696e5cd57208e_1.jpg","DR-2026-696e5cd57235b_2.jpg","DR-2026-696e5cd572d0d_3.jpg"]
+[19-Jan-2026 17:33:25 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php:106
+Stack trace:
+#0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(106): mysqli_stmt->bind_param('sssssdsss', 'INSP-2026-0667', 'Commonwealth Av...', '2026-01-19', 'high', 'road damage', '111111111', 'high', 17, '["DR-2026-696e5...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php on line 106
+[19-Jan-2026 17:33:26 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 17:33:26 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2026-01-19
+    [severity] => high
+    [priority] => high
+    [estimated_cost] => 111111111
+    [description] => road damage
+)
+
+[19-Jan-2026 17:33:26 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\phpE78F.tmp
+                    [1] => C:\xampp\tmp\phpE790.tmp
+                    [2] => C:\xampp\tmp\phpE791.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 62525
+                    [1] => 13190
+                    [2] => 7108
+                )
+
+        )
+
+    [uploaded_photo_1] => Array
+        (
+            [name] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [full_path] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpE7A2.tmp
+            [error] => 0
+            [size] => 62525
+        )
+
+    [uploaded_photo_2] => Array
+        (
+            [name] => download.jfif
+            [full_path] => download.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpE7A3.tmp
+            [error] => 0
+            [size] => 13190
+        )
+
+    [uploaded_photo_3] => Array
+        (
+            [name] => images.jfif
+            [full_path] => images.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpE7A4.tmp
+            [error] => 0
+            [size] => 7108
+        )
+
+)
+
+[19-Jan-2026 17:33:26 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 17:33:26 Europe/Berlin] Date: 2026-01-19
+[19-Jan-2026 17:33:26 Europe/Berlin] Severity: high
+[19-Jan-2026 17:33:26 Europe/Berlin] Description: road damage
+[19-Jan-2026 17:33:26 Europe/Berlin] Priority: high
+[19-Jan-2026 17:33:26 Europe/Berlin] Notes: 
+[19-Jan-2026 17:33:26 Europe/Berlin] Successfully uploaded photo: DR-2026-696e5cd6518a1_1.jpg
+[19-Jan-2026 17:33:26 Europe/Berlin] Successfully uploaded photo: DR-2026-696e5cd652755_2.jpg
+[19-Jan-2026 17:33:26 Europe/Berlin] Successfully uploaded photo: DR-2026-696e5cd652b16_3.jpg
+[19-Jan-2026 17:33:26 Europe/Berlin] Photos array: Array
+(
+    [0] => DR-2026-696e5cd6518a1_1.jpg
+    [1] => DR-2026-696e5cd652755_2.jpg
+    [2] => DR-2026-696e5cd652b16_3.jpg
+)
+
+[19-Jan-2026 17:33:26 Europe/Berlin] Generated inspection ID: INSP-2026-5653
+[19-Jan-2026 17:33:26 Europe/Berlin] Photos JSON: ["DR-2026-696e5cd6518a1_1.jpg","DR-2026-696e5cd652755_2.jpg","DR-2026-696e5cd652b16_3.jpg"]
+[19-Jan-2026 17:33:26 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php:106
+Stack trace:
+#0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(106): mysqli_stmt->bind_param('sssssdsss', 'INSP-2026-5653', 'Commonwealth Av...', '2026-01-19', 'high', 'road damage', '111111111', 'high', 17, '["DR-2026-696e5...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php on line 106
+[19-Jan-2026 17:33:26 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 17:33:26 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2026-01-19
+    [severity] => high
+    [priority] => high
+    [estimated_cost] => 111111111
+    [description] => road damage
+)
+
+[19-Jan-2026 17:33:26 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\phpE88F.tmp
+                    [1] => C:\xampp\tmp\phpE890.tmp
+                    [2] => C:\xampp\tmp\phpE891.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 62525
+                    [1] => 13190
+                    [2] => 7108
+                )
+
+        )
+
+    [uploaded_photo_1] => Array
+        (
+            [name] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [full_path] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpE892.tmp
+            [error] => 0
+            [size] => 62525
+        )
+
+    [uploaded_photo_2] => Array
+        (
+            [name] => download.jfif
+            [full_path] => download.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpE893.tmp
+            [error] => 0
+            [size] => 13190
+        )
+
+    [uploaded_photo_3] => Array
+        (
+            [name] => images.jfif
+            [full_path] => images.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpE894.tmp
+            [error] => 0
+            [size] => 7108
+        )
+
+)
+
+[19-Jan-2026 17:33:26 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 17:33:26 Europe/Berlin] Date: 2026-01-19
+[19-Jan-2026 17:33:26 Europe/Berlin] Severity: high
+[19-Jan-2026 17:33:26 Europe/Berlin] Description: road damage
+[19-Jan-2026 17:33:26 Europe/Berlin] Priority: high
+[19-Jan-2026 17:33:26 Europe/Berlin] Notes: 
+[19-Jan-2026 17:33:26 Europe/Berlin] Successfully uploaded photo: DR-2026-696e5cd68ec88_1.jpg
+[19-Jan-2026 17:33:26 Europe/Berlin] Successfully uploaded photo: DR-2026-696e5cd68f185_2.jpg
+[19-Jan-2026 17:33:26 Europe/Berlin] Successfully uploaded photo: DR-2026-696e5cd68f4d1_3.jpg
+[19-Jan-2026 17:33:26 Europe/Berlin] Photos array: Array
+(
+    [0] => DR-2026-696e5cd68ec88_1.jpg
+    [1] => DR-2026-696e5cd68f185_2.jpg
+    [2] => DR-2026-696e5cd68f4d1_3.jpg
+)
+
+[19-Jan-2026 17:33:26 Europe/Berlin] Generated inspection ID: INSP-2026-2295
+[19-Jan-2026 17:33:26 Europe/Berlin] Photos JSON: ["DR-2026-696e5cd68ec88_1.jpg","DR-2026-696e5cd68f185_2.jpg","DR-2026-696e5cd68f4d1_3.jpg"]
+[19-Jan-2026 17:33:26 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php:106
+Stack trace:
+#0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(106): mysqli_stmt->bind_param('sssssdsss', 'INSP-2026-2295', 'Commonwealth Av...', '2026-01-19', 'high', 'road damage', '111111111', 'high', 17, '["DR-2026-696e5...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php on line 106
+[19-Jan-2026 17:33:26 Europe/Berlin] === CREATE INSPECTION REPORT DEBUG ===
+[19-Jan-2026 17:33:26 Europe/Berlin] POST data: Array
+(
+    [location] => Commonwealth Avenue
+    [inspection_date] => 2026-01-19
+    [severity] => high
+    [priority] => high
+    [estimated_cost] => 111111111
+    [description] => road damage
+)
+
+[19-Jan-2026 17:33:26 Europe/Berlin] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 06c3b1953d3f62a4785945c8808c476e.jpg
+                    [1] => download.jfif
+                    [2] => images.jfif
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\phpE98F.tmp
+                    [1] => C:\xampp\tmp\phpE990.tmp
+                    [2] => C:\xampp\tmp\phpE991.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 62525
+                    [1] => 13190
+                    [2] => 7108
+                )
+
+        )
+
+    [uploaded_photo_1] => Array
+        (
+            [name] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [full_path] => 06c3b1953d3f62a4785945c8808c476e.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpE992.tmp
+            [error] => 0
+            [size] => 62525
+        )
+
+    [uploaded_photo_2] => Array
+        (
+            [name] => download.jfif
+            [full_path] => download.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpE993.tmp
+            [error] => 0
+            [size] => 13190
+        )
+
+    [uploaded_photo_3] => Array
+        (
+            [name] => images.jfif
+            [full_path] => images.jfif
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpE994.tmp
+            [error] => 0
+            [size] => 7108
+        )
+
+)
+
+[19-Jan-2026 17:33:26 Europe/Berlin] Location: Commonwealth Avenue
+[19-Jan-2026 17:33:26 Europe/Berlin] Date: 2026-01-19
+[19-Jan-2026 17:33:26 Europe/Berlin] Severity: high
+[19-Jan-2026 17:33:26 Europe/Berlin] Description: road damage
+[19-Jan-2026 17:33:26 Europe/Berlin] Priority: high
+[19-Jan-2026 17:33:26 Europe/Berlin] Notes: 
+[19-Jan-2026 17:33:26 Europe/Berlin] Successfully uploaded photo: DR-2026-696e5cd6cab55_1.jpg
+[19-Jan-2026 17:33:26 Europe/Berlin] Successfully uploaded photo: DR-2026-696e5cd6cafb3_2.jpg
+[19-Jan-2026 17:33:26 Europe/Berlin] Successfully uploaded photo: DR-2026-696e5cd6cb7f7_3.jpg
+[19-Jan-2026 17:33:26 Europe/Berlin] Photos array: Array
+(
+    [0] => DR-2026-696e5cd6cab55_1.jpg
+    [1] => DR-2026-696e5cd6cafb3_2.jpg
+    [2] => DR-2026-696e5cd6cb7f7_3.jpg
+)
+
+[19-Jan-2026 17:33:26 Europe/Berlin] Generated inspection ID: INSP-2026-5209
+[19-Jan-2026 17:33:26 Europe/Berlin] Photos JSON: ["DR-2026-696e5cd6cab55_1.jpg","DR-2026-696e5cd6cafb3_2.jpg","DR-2026-696e5cd6cb7f7_3.jpg"]
+[19-Jan-2026 17:33:26 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php:106
+Stack trace:
+#0 C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php(106): mysqli_stmt->bind_param('sssssdsss', 'INSP-2026-5209', 'Commonwealth Av...', '2026-01-19', 'high', 'road damage', '111111111', 'high', 17, '["DR-2026-696e5...', '')
+#1 {main}
+  thrown in C:\xampp\htdocs\LGU-kristine\road_and_infra_dept\engineer_module\api\create_inspection_report.php on line 106

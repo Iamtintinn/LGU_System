@@ -1,0 +1,498 @@
+<?php
+// Start session and include authentication
+session_start();
+require_once '../config/auth.php';
+
+// Require login to access this page
+$auth->requireLogin();
+
+// Log page access
+$auth->logActivity('page_access', 'Accessed road damage reporting dashboard');
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LGU Road Damage Reporting | Report</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+    :root {
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
+      --glass-bg: rgba(255, 255, 255, 0.85);
+      --glass-border: rgba(255, 255, 255, 0.4);
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --sidebar-width: 260px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Inter", sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      background: url("assets/img/cityhall.jpeg") center/cover no-repeat fixed;
+      position: relative;
+      overflow: hidden;
+      color: var(--text-main);
+    }
+
+    body::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      backdrop-filter: blur(10px);
+      background: rgba(15, 23, 42, 0.45);
+      z-index: 0;
+    }
+
+    /* Sidebar Glassmorphism */
+
+    /* Main Content Layout */
+    .main-content {
+      position: relative;
+      margin-left: var(--sidebar-width);
+      height: 100vh;
+      padding: 40px 60px;
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      /* Split view: Form on left, Table on right */
+      grid-template-rows: auto 1fr;
+      gap: 24px;
+      z-index: 1;
+      overflow-y: auto;
+    }
+
+    .page-header {
+      grid-column: span 2;
+      color: white;
+      margin-bottom: 10px;
+    }
+
+    .card {
+      background: var(--glass-bg);
+      backdrop-filter: blur(15px);
+      border-radius: 16px;
+      border: 1px solid var(--glass-border);
+      padding: 30px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      height: fit-content;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    /* Form Styling */
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+      text-transform: uppercase;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      background: rgba(255, 255, 255, 0.5);
+      font-size: 0.9rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+      border-color: var(--primary);
+      background: white;
+    }
+
+    /* Table Design */
+    .table-card {
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .table-container {
+      padding: 0 20px;
+      overflow-y: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th {
+      text-align: left;
+      padding: 16px;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+      background: rgba(248, 250, 252, 0.5);
+      position: sticky;
+      top: 0;
+    }
+
+    td {
+      padding: 16px;
+      font-size: 0.85rem;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+    }
+
+    /* Badges */
+    .status-badge {
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      background: rgba(37, 99, 235, 0.1);
+      color: var(--primary);
+    }
+
+    /* Buttons */
+    .btn-primary {
+      width: 100%;
+      padding: 12px;
+      border-radius: 10px;
+      border: none;
+      background: var(--primary);
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      margin-top: 10px;
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .btn-outline {
+      flex: 1;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid var(--primary);
+      background: transparent;
+      color: var(--primary);
+      font-weight: 600;
+      cursor: pointer;
+      font-size: 0.8rem;
+    }
+
+    .btn-outline:hover {
+      background: rgba(37, 99, 235, 0.05);
+    }
+
+    /* Upload Area Styling */
+    .upload-container {
+      border: 2px dashed rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.3);
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .upload-container:hover {
+      border-color: var(--primary);
+      background: rgba(37, 99, 235, 0.05);
+    }
+
+    .upload-container.drag-over {
+      border-color: var(--primary);
+      background: rgba(37, 99, 235, 0.1);
+    }
+
+    /* Image Preview Grid */
+    .preview-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+      gap: 10px;
+      margin-top: 12px;
+    }
+
+    .preview-item {
+      position: relative;
+      aspect-ratio: 1;
+      border-radius: 6px;
+      overflow: hidden;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .preview-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .remove-btn {
+      position: absolute;
+      top: 2px;
+      right: 2px;
+      background: rgba(255, 0, 0, 0.7);
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 18px;
+      height: 18px;
+      font-size: 12px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Upload Area Styling */
+    .upload-container {
+      border: 2px dashed rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.3);
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .upload-container:hover {
+      border-color: var(--primary);
+      background: rgba(37, 99, 235, 0.05);
+    }
+
+    .upload-container.drag-over {
+      border-color: var(--primary);
+      background: rgba(37, 99, 235, 0.1);
+    }
+
+    /* Image Preview Grid */
+    .preview-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+      gap: 10px;
+      margin-top: 12px;
+    }
+
+    .preview-item {
+      position: relative;
+      aspect-ratio: 1;
+      border-radius: 6px;
+      overflow: hidden;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .preview-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .remove-btn {
+      position: absolute;
+      top: 2px;
+      right: 2px;
+      background: rgba(255, 0, 0, 0.7);
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 18px;
+      height: 18px;
+      font-size: 12px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- SIDEBAR (REUSED) -->
+  <?php include '../sidebar/sidebar.php'; ?>
+
+  <div class="main-content">
+    <header class="page-header">
+      <h1 style="font-size: 1.5rem; font-weight: 700">
+        Infrastructure Maintenance
+      </h1>
+      <p style="opacity: 0.8; font-size: 0.9rem">
+        Submit and track road repair requests
+      </p>
+
+      <!-- Divider -->
+      <hr class="divider" />
+    </header>
+
+    <div class="card">
+      <h3>Report Road Damage</h3>
+      <div class="form-group">
+        <label>Location</label>
+        <input type="text" placeholder="Street / Barangay Name" />
+      </div>
+      <div class="form-group">
+        <label>Damage Type</label>
+        <select>
+          <option>Pothole</option>
+          <option>Crack / Fissure</option>
+          <option>Flood Damage</option>
+          <option>Road Collapse</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Severity Level</label>
+        <select>
+          <option>Low (Minor wear)</option>
+          <option>Medium (Noticeable hazard)</option>
+          <option>High (Dangerous / Unpassable)</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Description</label>
+        <textarea rows="4" placeholder="Describe the damage extent..."></textarea>
+      </div>
+      <div class="form-group">
+        <label>Evidence Photos</label>
+        <div class="upload-container" id="drop-zone">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="var(--text-muted)" viewBox="0 0 16 16">
+            <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
+            <path
+              d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z" />
+          </svg>
+          <p style="
+                margin: 8px 0 0 0;
+                color: var(--text-muted);
+                font-size: 0.8rem;
+              ">
+            Drag & drop or
+            <span style="color: var(--primary); font-weight: 600; cursor: pointer">browse</span>
+          </p>
+          <input type="file" id="file-input" accept="image/*" style="display: none" />
+        </div>
+        <div id="image-preview-container" class="preview-grid"></div>
+      </div>
+      <button class="btn-primary">Submit Official Report</button>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 24px">
+      <div class="card table-card" style="flex: 1">
+        <div style="
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              padding: 0 16px; /* optional padding for edges */
+              flex-wrap: wrap; /* allows wrapping on smaller screens */
+            ">
+          <h3>Reported Damages</h3>
+          <!-- Professional Sort & Filter Controls -->
+          <div style="
+                display: flex;
+                justify-content: flex-start;
+                gap: 40px;
+                padding: 24px;
+                align-items: center;
+              ">
+            <div style="display: flex; flex-direction: column">
+              <label for="sort-date" style="
+                    font-size: 0.8rem;
+                    color: var(--text-muted);
+                    margin-bottom: 4px;
+                  ">Sort by Date</label>
+              <select id="sort-date" style="
+                    padding: 6px 12px;
+                    border-radius: 6px;
+                    border: 1px solid var(--glass-border);
+                    background: var(--glass-bg);
+                    color: var(--text-main);
+                    cursor: pointer;
+                  ">
+                <option value="latest">Latest</option>
+                <option value="earliest">Earliest</option>
+              </select>
+            </div>
+            <div style="display: flex; flex-direction: column">
+              <label for="filter-status" style="
+                    font-size: 0.8rem;
+                    color: var(--text-muted);
+                    margin-bottom: 4px;
+                  ">Filter by Status</label>
+              <select id="filter-status" style="
+                    padding: 6px 12px;
+                    border-radius: 6px;
+                    border: 1px solid var(--glass-border);
+                    background: var(--glass-bg);
+                    color: var(--text-main);
+                    cursor: pointer;
+                  ">
+                <option value="all">All</option>
+                <option value="sent">Sent</option>
+                <option value="pending">Pending</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Location</th>
+                <th>Type</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="font-weight: 600">RD-001</td>
+                <td>Main Road, Brgy. Central</td>
+                <td>Pothole</td>
+
+              </tr>
+              <tr>
+                <td style="font-weight: 600">RD-002</td>
+                <td>Riverside Blvd.</td>
+                <td>Crack</td>
+
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+
+      <script src="/js/sidebar.js"></script>
+</body>
+
+</html>
