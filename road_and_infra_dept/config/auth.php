@@ -6,12 +6,7 @@ class Auth {
     private $database;
     
     public function __construct() {
-        try {
-            $this->database = new Database();
-        } catch (Exception $e) {
-            error_log("Auth initialization - Database connection failed: " . $e->getMessage());
-            // We don't throw here to avoid 500 mapping, but subsequent calls will need to check connection
-        }
+        $this->database = new Database();
     }
     
     // Check if user is logged in
@@ -100,22 +95,16 @@ class Auth {
         $role = $this->getUserRole();
         
         // Detect if we are in a subfolder (like admin_ui or user_and_access_management_module)
+        // This project structure has main entry points in the root and in module subfolders.
         $current_dir = basename(dirname($_SERVER['PHP_SELF']));
         $is_in_module = (
             $current_dir === 'admin_ui' || 
             $current_dir === 'user_and_access_management_module' || 
             $current_dir === 'lgu_officer_module' ||
-            $current_dir === 'citizen_module' ||
-            $current_dir === 'engineer_module'
+            $current_dir === 'citizen_module'
         );
         
-        $isIncluded = (realpath(__FILE__) !== realpath($_SERVER['SCRIPT_FILENAME']));
-        
-        if ($isIncluded) {
-            $prefix = 'road_and_infra_dept/';
-        } else {
-            $prefix = $is_in_module ? '../' : '';
-        }
+        $prefix = $is_in_module ? '../' : '';
         
         switch ($role) {
             case 'admin':
@@ -158,9 +147,10 @@ class Auth {
             }
         }
         
-        $isIncluded = (realpath(__FILE__) !== realpath($_SERVER['SCRIPT_FILENAME']));
-        
-        $loginUrl = $isIncluded ? 'index.php' : ($is_in_module ? '../user_and_access_management_module/login.php' : 'user_and_access_management_module/login.php');
+        $loginUrl = 'login.php';
+        if (isset($_SERVER['SCRIPT_NAME']) && basename($_SERVER['SCRIPT_NAME']) === 'index.php') {
+            $loginUrl = 'index.php';
+        }
         
         header('Location: ' . $loginUrl);
         exit;
@@ -302,6 +292,8 @@ class Auth {
     // Validate JWT token (for API authentication)
     public function validateToken($token) {
         try {
+            // For now, use a simple token validation
+            // In production, implement proper JWT validation
             $conn = $this->database->getConnection();
             
             $stmt = $conn->prepare("
@@ -359,7 +351,7 @@ class Auth {
             return false;
         }
     }
-    // Create a notification for a user
+// Create a notification for a user
     public function createNotification($userId, $title, $message, $type = 'info') {
         try {
             $conn = $this->database->getConnection();

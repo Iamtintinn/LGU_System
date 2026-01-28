@@ -5,10 +5,10 @@ session_start();
 $basePath = '';
 $loginUrl = 'login.php';
 
-$isRoot = (strpos($_SERVER['PHP_SELF'], 'road_and_infra_dept') === false);
-
-if ($isRoot) {
+if (isset($_SERVER['SCRIPT_NAME']) && basename($_SERVER['SCRIPT_NAME']) === 'index.php') {
+    $basePath = 'lgu-portal/public/';
     $loginUrl = 'index.php';
+    $employeeUrl = 'lgu-portal/public/employee.php';
 }
 
 header('Location: ' . (basename($loginUrl) === 'index.php' ? '../index.php' : 'user_and_access_management_module/login.php'));

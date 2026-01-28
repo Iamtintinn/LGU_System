@@ -2,32 +2,14 @@
 // Database configuration for LGU Road and Infrastructure Department
 class Database
 {
-    private $host;
-    private $username;
-    private $password;
-    private $database;
+    private $host = 'localhost';
+    private $username = 'root';
+    private $password = '';
+    private $database = 'lgu_road_infra';
     private $conn;
 
     public function __construct()
     {
-        // Default credentials
-        $this->host = getenv('DB_HOST') ?: 'localhost';
-        $this->username = getenv('DB_USER') ?: 'root';
-        $this->password = getenv('DB_PASS') ?: '';
-        $this->database = getenv('DB_NAME') ?: 'lgu_road_infra';
-
-        // Check for local configuration file
-        $localConfigFile = __DIR__ . '/database.local.php';
-        if (file_exists($localConfigFile)) {
-            $localConfig = include $localConfigFile;
-            if (is_array($localConfig)) {
-                $this->host = $localConfig['host'] ?? $this->host;
-                $this->username = $localConfig['username'] ?? $this->username;
-                $this->password = $localConfig['password'] ?? $this->password;
-                $this->database = $localConfig['database'] ?? $this->database;
-            }
-        }
-
         $this->connect();
     }
 
@@ -38,7 +20,7 @@ class Database
                 $this->host,
                 $this->username,
                 $this->password,
-                $this->database
+                $this->database,
             );
 
             if ($this->conn->connect_error) {

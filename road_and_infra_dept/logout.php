@@ -5,9 +5,10 @@ session_start();
 $basePath = '';
 $loginUrl = 'login.php';
 
-$isRoot = (strpos($_SERVER['PHP_SELF'], 'road_and_infra_dept') === false);
-if ($isRoot) {
+if (isset($_SERVER['SCRIPT_NAME']) && basename($_SERVER['SCRIPT_NAME']) === 'index.php') {
+    $basePath = 'lgu-portal/public/';
     $loginUrl = 'index.php';
+    $employeeUrl = 'lgu-portal/public/employee.php';
 }
 
 // Destroy all session data

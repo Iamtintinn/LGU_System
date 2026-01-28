@@ -4,8 +4,8 @@
 -- Purpose: Complete database initialization with all tables and sample data
 
 -- Create database if it doesn't exist
--- CREATE DATABASE IF NOT EXISTS lgu_road_infra;
--- USE lgu_road_infra;
+CREATE DATABASE IF NOT EXISTS lgu_road_infra;
+USE lgu_road_infra;
 
 -- Drop existing tables to start fresh (for clean installation)
 -- Drop in reverse order of dependencies

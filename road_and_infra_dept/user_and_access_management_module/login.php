@@ -1,30 +1,13 @@
 <?php
-// Determine if we are being included from the root index.php
-$isIncluded = (realpath(__FILE__) !== realpath($_SERVER['SCRIPT_FILENAME']));
-
-// Asset path should point to the module folder if included from root
-$assetPath = $isIncluded ? 'road_and_infra_dept/user_and_access_management_module/' : '';
-
-// Base redirect path for Auth class
-$baseRedirect = $isIncluded ? 'road_and_infra_dept/' : '../';
-
 // Start session
 session_start();
 
 // Include authentication and database
-require_once __DIR__ . '/../config/database.php';
-require_once __DIR__ . '/../config/auth.php';
-
-// Check database connection before proceeding
-try {
-    $dbCheck = new Database();
-    $connCheck = $dbCheck->getConnection();
-} catch (Exception $e) {
-    die("Error: Unable to connect to database. " . $e->getMessage());
-}
+require_once '../config/database.php';
+require_once '../config/auth.php';
 
 // Redirect if already logged in (unless bypass parameter is set)
-if ($auth->isLoggedIn() && !isset($_GET['bypass']) && !isset($isLanding)) {
+if ($auth->isLoggedIn() && !isset($_GET['bypass'])) {
     $auth->redirectToDashboard();
     exit;
 }
@@ -84,7 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_register'])) {
                         $_SESSION['registration_email'] = $email;
                         
                         // Auto-switch to additional info panel after successful registration
-                        $showAdditional = true;
+                        echo '<script>setTimeout(() => showPanel("additional"), 1000);</script>';
                     } else {
                         $registerMessage = 'Failed to create account';
                         $registerMessageType = 'error';
@@ -249,7 +232,27 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !isset($_POST['submit_additional'])
                         
                         // Determine redirect based on user role
                         // Both Admin and LGU Officer can login from this unified page
-                        $auth->redirectToDashboard();
+                        switch ($user['role']) {
+                            case 'admin':
+                                // Redirect to Admin UI
+                                $redirectUrl = '../admin_ui/index.php';
+                                break;
+                            case 'lgu_officer':
+                                // Redirect to LGU Officer Dashboard
+                                $redirectUrl = '../lgu_officer_module/index.php';
+                                break;
+                            case 'engineer':
+                                $redirectUrl = '../engineer_module/index.php';
+                                break;
+                            case 'citizen':
+                                $redirectUrl = '../citizen_module/index.php';
+                                break;
+                            default:
+                                $redirectUrl = '../dashboard.php';
+                        }
+                        
+                        // Redirect to appropriate dashboard
+                        header('Location: ' . $redirectUrl);
                         exit;
                     }
                 } else {
@@ -335,7 +338,7 @@ function createUserSession($conn, $user_id) {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LGU | Login</title>
-    <link rel="stylesheet" href="<?php echo $assetPath; ?>styles/style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <style>
       body {
         height: 100vh;
@@ -343,7 +346,7 @@ function createUserSession($conn, $user_id) {
         flex-direction: column;
 
         /* NEW — background image + blur */
-        background: url("<?php echo $assetPath; ?>assets/img/cityhall.jpeg") center/cover no-repeat fixed;
+        background: url("assets/img/cityhall.jpeg") center/cover no-repeat fixed;
         position: relative;
         overflow: hidden;
       }
@@ -408,7 +411,7 @@ function createUserSession($conn, $user_id) {
         <!-- LOGIN -->
         <div class="panel login">
           <div class="card">
-            <img src="<?php echo $assetPath; ?>assets/img/logocityhall.png" class="icon-top" />
+            <img src="assets/img/logocityhall.png" class="icon-top" />
             <h2 class="title">LGU Login</h2>
             <p class="subtitle">
               Secure access to community maintenance services.
@@ -596,13 +599,6 @@ function createUserSession($conn, $user_id) {
         if (panel === "register") wrapper.classList.add("show-register");
         if (panel === "additional") wrapper.classList.add("show-additional");
       }
-
-      <?php if (isset($showAdditional) && $showAdditional): ?>
-      // Trigger transition if registration was successful
-      document.addEventListener('DOMContentLoaded', () => {
-        setTimeout(() => showPanel('additional'), 1000);
-      });
-      <?php endif; ?>
     </script>
   </body>
 </html>
